@@ -9,4 +9,6 @@ app.get('/', (req,res) => {
 const port = 3333;
 app.listen({
   port
+}).then(() => {
+  console.log('listening on port ' + port);
 });
